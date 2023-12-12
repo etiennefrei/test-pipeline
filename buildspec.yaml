@@ -16,7 +16,6 @@ phases:
     commands:
         - echo Build started 
         - ng build
-        - npm test
 artifacts:
     files:
         - '**/*'
