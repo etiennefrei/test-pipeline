@@ -2,6 +2,7 @@ version: 0.2
 
 env:
     variables:
+        S3_BUCKET: "{{S3_BUCKET}}"
         CACHE_CONTROL: "86400"
         BUILD_FOLDER: "dist"
 phases:
